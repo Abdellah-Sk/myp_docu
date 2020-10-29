@@ -92,19 +92,19 @@ Après avoir pull le projet, vous allez avoir une arborescence qui va ressembler
 
 A la racine:
 * __img__ : Dossier d'upload des images des projets
-* __db.sqlite3__ :
+* __db.sqlite3__ : Fichier de base de données sqlite
 
 Le dossier d'application :
-* __projects__ :
-* __static__ :
-* __templates__ :
-* __views__ :
-* __models__ :
+* __projects__ : Répertoire de l'application Django
+* __static__ : Dossier contenant les fichiers statique (css, javascript, images)
+* __templates__ : Dossier contenant les differents template liés au projet
+* __views__ : Fichier contenant les fontions de vues
+* __models__ : Fichier contenant les champs et le comportement essentiels des données
 
 Le dossier du projet :
-* __PortfolioDjango__ :
-* __settings__ :
-* __urls__ :
+* __PortfolioDjango__ : Correspond au paquet Python effectif de votre projet.
+* __settings__ : Réglages et configuration du projet Django
+* __urls__ : Les déclarations des URL de ce projet Django
 
 
 ### Modèle de base de données
@@ -116,3 +116,15 @@ On retrouve donc une table User, une table Projects, une table Technologies, et 
 Ci-dessous, le modèle de la base donnée :
 
 ![Modèle de la base de données](assets/images/db_model.png)
+
+## Personnaliser le projet
+
+Si vous prévoyez des personnalisations de code, cette section est faite pour vous. Elle vous permet d'appliquer des modifications de code personnalisées à votre site.
+
+### Base de données
+
+### Mailing
+
+### Css
+
+### Templates
