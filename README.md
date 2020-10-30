@@ -128,3 +128,5 @@ Si vous prévoyez des personnalisations de code, cette section est faite pour vo
 ### Css
 
 ### Templates
+
+Pour toute modification des templates, vous devez vous rendre dans ```src/projects/templates```
