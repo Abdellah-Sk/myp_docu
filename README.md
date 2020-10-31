@@ -123,6 +123,8 @@ Si vous prévoyez des personnalisations de code, cette section est faite pour vo
 
 ### Base de données
 
+Pour ce qui concerne la base de données, nous avons le choix d'utilisé Sqlite 3 pour le projet en Django. Cependant, pour toute modification de la base de données, rendez vous dans le fichier: ```settings.py```.
+
 ### Mailing
 
 Sur le projet, pour mettre en fonction le formulaire de contact rendez-vous directement dans ```settings.py```.
