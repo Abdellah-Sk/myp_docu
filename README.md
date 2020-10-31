@@ -125,6 +125,8 @@ Si vous prévoyez des personnalisations de code, cette section est faite pour vo
 
 ### Mailing
 
+Sur le projet, pour mettre en fonction le formulaire de contact rendez-vous directement dans ```settings.py```.
+
 ### Css
 
 ### Templates
