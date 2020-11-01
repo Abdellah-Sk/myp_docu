@@ -125,6 +125,18 @@ Si vous prévoyez des personnalisations de code, cette section est faite pour vo
 
 Pour ce qui concerne la base de données, nous avons le choix d'utilisé Sqlite 3 pour le projet en Django. Cependant, pour toute modification de la base de données, rendez vous dans le fichier: ```settings.py```.
 
+Depuis de code, vous avez la possibilité de modifié votre base de données. Pour d'eventuel problematique, je vous redigire directement sur la documentation de Django : https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
+
 ### Mailing
 
 Sur le projet, pour mettre en fonction le formulaire de contact rendez-vous directement dans ```settings.py```.
