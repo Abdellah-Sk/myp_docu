@@ -111,7 +111,7 @@ Le dossier du projet :
 
 La base donnée est composé de trois tables principal plus une table de relation ManyToMany.
 
-On retrouve donc une table User, une table Projects, une table Technologies, et une table Projects_technologies qui fait office de relation ManyToMany entre les projets et les technologie.
+On retrouve donc une table User, une table Projects, une table Technologies, et une table Projects_technologies qui fait office de relation ManyToMany entre les projets et les technologies.
 
 Ci-dessous, le modèle de la base donnée :
 
@@ -119,13 +119,13 @@ Ci-dessous, le modèle de la base donnée :
 
 ## Personnaliser le projet
 
-Si vous prévoyez des personnalisations de code, cette section est faite pour vous. Elle vous permet d'appliquer des modifications de code personnalisées à votre site.
+Si vous prévoyez des personnalisations de code, cette section est faite pour vous. Elle vous permet d'appliquer des modifications à votre site.
 
 ### Base de données
 
 Pour ce qui concerne la base de données, nous avons le choix d'utilisé Sqlite 3 pour le projet en Django. Cependant, pour toute modification de la base de données, rendez vous dans le fichier: ```settings.py```.
 
-Depuis de code, vous avez la possibilité de modifié votre base de données. Pour d'eventuel problematique, je vous redigire directement sur la documentation de Django : https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+Depuis le code, vous avez la possibilité de modifié votre base de données. Pour d'eventuel problematique, je vous redigire directement sur la documentation de Django : https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
 ```
@@ -139,7 +139,46 @@ DATABASES = {
 
 ### Mailing
 
-Sur le projet, pour mettre en fonction le formulaire de contact rendez-vous directement dans ```settings.py```.
+L'envoi d'e-mails est l'une des parties importantes du site Web. Pour envoyer des e-mails à partir de votre site vous aurez besoin d'avoir un serveur hôte de courrier électronique et dans ce cas, nous allons utiliser le serveur SMTP google.
+
+Pour que cela fonctionne, vous devez disposer d'un compte Gmail fonctionnel. Rendez vous ensuite dans vos parametres Gmail : __"Gérer votre compte Google"__. 
+
+![Modèle de la base de données](assets/images/gmail_config.png)
+
+Cliquez maintenant sur l'onglet __"Sécurité"__. 
+
+Assurez-vous d'activer la valisation en deux étapes. 
+
+Cliquez maintenant sur __"Mots de passe des applications__. 
+
+![Modèle de la base de données](assets/images/gmail_secure.png)
+
+Après avoir taper de nouveau votre mot de passe, il ne vous reste plus qu'a cliquez sur "Sélectionnez une application". Choisissez __Autre (Nom personnalisé)__ et donnez un nom à votre application puis __Générer__. Gmail générera une clé ou un mot de passe d'application assurez-vous de copier cette clé ou de l'enregistrer dans un fichier texte.
+
+![Modèle de la base de données](assets/images/gmail_app.png)
+
+![Modèle de la base de données](assets/images/gmail_code.png)
+
+Pour configurer votre moteur de messagerie, il vout faut modifier le fichier ```settings.py``` de votre application Django:
+
+```
+EMAIL_BACKEND = ‘django.core.mail.backends.smtp.EmailBackend’
+EMAIL_HOST = ‘smtp.gmail.com’
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = ‘votre_compte@gmail.com’
+EMAIL_HOST_PASSWORD = ‘votre mot de passe d'application’
+```
+
+* __EMAIL_BACKEND__: Chemin d’importation Python vers la classe du moteur de messagerie.
+* __EMAIL_HOST__ et __EMAIL_PORT__: Hôte et Port utilisés.
+* __EMAIL_HOST_USER__ et __EMAIL_HOST_PASSWORD__: Paramètres d’authentification auprès du serveur SMTP.
+
+Enfin pour une personnalisation plus poussé des e-mails, je vous invite a modifier la fonction __contact__ dans le fichier ```src/projects/views.py```.
+
+Pour ce tutoriel, nous avons fais le choix d'utiliser Gmail cependant vous pouvez aussi utiliser SendGrid, Mailgun, Sendinblue, ou autres pour votre applications. Pour une exploration plus approfondie, je vous redigire vers la documentation Django a ce sujet : https://docs.djangoproject.com/en/1.11/topics/email/
+
+
 
 ### Css
 
