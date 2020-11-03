@@ -123,7 +123,7 @@ Si vous prévoyez des personnalisations de code, cette section est faite pour vo
 
 ### Base de données
 
-Pour ce qui concerne la base de données, nous avons le choix d'utilisé Sqlite 3 pour le projet en Django. Cependant, pour toute modification de la base de données, rendez vous dans le fichier: ```settings.py```.
+Pour ce qui concerne la base de données, nous avons le choix d'utilisé sqlite3 pour le projet en Django. Cependant, pour toute modification de la base de données, rendez vous dans le fichier: ```settings.py```.
 
 Depuis le code, vous avez la possibilité de modifié votre base de données. Pour d'eventuel problematique, je vous redigire directement sur la documentation de Django : https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -147,7 +147,7 @@ Pour que cela fonctionne, vous devez disposer d'un compte Gmail fonctionnel. Ren
 
 Cliquez maintenant sur l'onglet __"Sécurité"__. 
 
-Assurez-vous d'activer la valisation en deux étapes. 
+Assurez-vous d'activer la validation en deux étapes. 
 
 Cliquez maintenant sur __"Mots de passe des applications__. 
 
