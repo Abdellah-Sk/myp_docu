@@ -182,6 +182,8 @@ Pour ce tutoriel, nous avons fais le choix d'utiliser Gmail cependant vous pouve
 
 ### Css
 
+Pour toute modification des styles, vous devez vous rendre dans ```src/projects/static```
+
 ### Templates
 
 Pour toute modification des templates, vous devez vous rendre dans ```src/projects/templates```
