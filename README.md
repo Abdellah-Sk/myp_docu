@@ -187,3 +187,8 @@ Pour toute modification des styles, vous devez vous rendre dans ```src/projects/
 ### Templates
 
 Pour toute modification des templates, vous devez vous rendre dans ```src/projects/templates```
+
+
+## Hebergement
+
+OVH / Heruku / Pythonanything
