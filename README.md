@@ -191,4 +191,6 @@ Pour toute modification des templates, vous devez vous rendre dans ```src/projec
 
 ## Hebergement
 
-OVH / Heruku / Pythonanything
+* OVH 
+* Heruku
+* Pythonanything
