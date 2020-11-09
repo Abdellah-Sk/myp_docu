@@ -17,6 +17,7 @@ Un excellent moyen de se familiariser avec MYP est de suivre ce didacticiel, qui
     * Css
     * Templates
 8. Hebergement
+9. Projets favoris
 
 ## Prérequis
 
@@ -194,3 +195,5 @@ Pour toute modification des templates, vous devez vous rendre dans ```src/projec
 * OVH 
 * Heruku
 * Pythonanything
+
+## Projets favoris
