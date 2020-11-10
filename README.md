@@ -197,3 +197,5 @@ Pour toute modification des templates, vous devez vous rendre dans ```src/projec
 * Pythonanything
 
 ## Projets favoris
+
+Vous avez la possibilité de mettre en avant 3 projets sur votre page d'accueil.
