@@ -152,7 +152,7 @@ Assurez-vous d'activer la validation en deux étapes.
 
 Cliquez maintenant sur __"Mots de passe des applications__. 
 
-![Modèle de la base de données](assets/images/gmail_secure.png)
+![Sécurité Gmail](assets/images/gmail_secure.png)
 
 Après avoir taper de nouveau votre mot de passe, il ne vous reste plus qu'a cliquez sur "Sélectionnez une application". Choisissez __Autre (Nom personnalisé)__ et donnez un nom à votre application puis __Générer__. Gmail générera une clé ou un mot de passe d'application assurez-vous de copier cette clé ou de l'enregistrer dans un fichier texte.
 
