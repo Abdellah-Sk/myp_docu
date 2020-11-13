@@ -144,7 +144,7 @@ L'envoi d'e-mails est l'une des parties importantes du site Web. Pour envoyer de
 
 Pour que cela fonctionne, vous devez disposer d'un compte Gmail fonctionnel. Rendez vous ensuite dans vos parametres Gmail : __"Gérer votre compte Google"__. 
 
-![Modèle de la base de données](assets/images/gmail_config.png)
+![Configuration Gmail](assets/images/gmail_config.png)
 
 Cliquez maintenant sur l'onglet __"Sécurité"__. 
 
