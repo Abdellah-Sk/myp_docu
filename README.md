@@ -158,7 +158,7 @@ Après avoir taper de nouveau votre mot de passe, il ne vous reste plus qu'a cli
 
 ![Application Gmail](assets/images/gmail_app.png)
 
-![Modèle de la base de données](assets/images/gmail_code.png)
+![Code Gmail](assets/images/gmail_code.png)
 
 Pour configurer votre moteur de messagerie, il vout faut modifier le fichier ```settings.py``` de votre application Django:
 
