@@ -187,6 +187,8 @@ Pour toute modification des styles, vous devez vous rendre dans ```src/projects/
 
 Explication de Webpack + dossier dist/dev
 
+FOnctionnement du build + CSS herbergement
+
 ### Templates
 
 Pour toute modification des templates, vous devez vous rendre dans ```src/projects/templates```
