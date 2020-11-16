@@ -51,7 +51,7 @@ Enfin lancer l'application grâce a la commande suite : ``python manage.py runse
 
 Une fois sur l'application, il ne vous reste plus qu'a vous connecter au back-office en ajouter dans l'URL ``/admin``.
 
-Nom d’utilisateur :  ``admin``
+Nom d’utilisateur :  ``admin@admin.com``
 
 Mot de Passe: ``admin`` 
 
